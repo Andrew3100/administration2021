@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/actions/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/update_theme.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/tables.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1qjsmwQrAvBC8RH3YGb3FT3NxHq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,8 +38,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617604495659</updated>
       <workItem from="1617604496788" duration="26008000" />
+      <workItem from="1617648449300" duration="4627000" />
     </task>
     <task id="LOCAL-00001" summary="BackUp">
       <created>1617637729338</created>
@@ -59,38 +74,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BackUp" />
     <option name="LAST_COMMIT_MESSAGE" value="BackUp" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617605892050">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617605892050" />
-    <state x="2502" y="97" key="CommitChangelistDialog2" timestamp="1617637815385">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2502" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637815385" />
-    <state x="2735" y="418" key="Github.ShareDialog" timestamp="1617637563873">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2735" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637563873" />
-    <state x="2654" y="225" key="Github.UntrackedFilesDialog" timestamp="1617637586204">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2654" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637586204" />
-    <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1617606449998">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617606449998" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617637819891">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637819891" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617605816164">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617605816164" />
   </component>
 </project>
