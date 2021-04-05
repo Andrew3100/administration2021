@@ -283,7 +283,7 @@ CREATE TABLE `international` (
   `status` int(11) DEFAULT '1',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40101 SET character_set_clients = @saved_cs_client */;
 
 --
 -- Dumping data for table `international`
