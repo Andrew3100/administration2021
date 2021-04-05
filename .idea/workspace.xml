@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="Начал работу над шапкой">
-      <change afterPath="$PROJECT_DIR$/actions/exit.php" afterDir="false" />
+    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="Продолжил работу над шапкой">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
     </list>
@@ -47,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617604495659</updated>
       <workItem from="1617604496788" duration="26008000" />
-      <workItem from="1617648449300" duration="5354000" />
+      <workItem from="1617648449300" duration="5781000" />
     </task>
     <task id="LOCAL-00001" summary="BackUp">
       <created>1617637729338</created>
@@ -70,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617653180442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Продолжил работу над шапкой">
+      <created>1617653853586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617653853586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BackUp" />
     <MESSAGE value="Начал работу над шапкой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал работу над шапкой" />
+    <MESSAGE value="Продолжил работу над шапкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="Продолжил работу над шапкой" />
   </component>
 </project>

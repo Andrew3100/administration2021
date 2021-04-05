@@ -18,9 +18,15 @@ function GetHeader($color) {
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Руководство пользователя</a>
                     </li>
+                    
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Шаблоны импорта</a>
                     </li>
+                    
+                    <li class="nav-item">
+                      <a style="color: white" class="nav-link" href="#">Поделиться отчётом</a>
+                    </li>
+                    
                   </ul>
                   <form class="d-flex" style=" margin-right: 25px;">
                     <input class="form-control mr-2" type="search" placeholder="Запись содержит..." aria-label="Search">
