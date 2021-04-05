@@ -1,5 +1,5 @@
 <?php
-debug();
+
 
 include 'bootstrap/template.html';
 /*Имя гет-параметра, уникального для данной таблицы*/

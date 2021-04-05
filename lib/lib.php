@@ -27,13 +27,13 @@ function get_records_sql($table,$condition)
     if ($condition!='') {
         $sql = "SELECT * FROM `$table` WHERE $condition";
         $result = $mysqli->query($sql);
-/*        print_r($sql);*/
+
 
     }
     else {
-        $sql = "SELECT * FROM $table";
+        $sql = "SELECT * FROM `$table`";
         $result = $mysqli->query($sql);
-/*print_r($sql);*/
+
 
     }
     return $result;
@@ -74,7 +74,7 @@ function get_table_headers($array) {
     for ($i=0;$i<count($array);$i++) {
         echo '<td style="text-align: center">'.$array[$i].'</td>';
     }
-    echo '</tr></thead>';
+    echo '<td style="text-align: center">Действия</td></tr></thead>';
     /*echo '</table>';*/
 }
 
@@ -91,7 +91,7 @@ function get_table_content($table_name) {
 
     unset($field_list[count($field_list)]);
 
-
+    $icons = GetIconsContainer();
     /*echo '<table class="table table-bordered table-dark">';*/
     while ($result1 = mysqli_fetch_assoc($result)) {
 
@@ -102,6 +102,7 @@ function get_table_content($table_name) {
             echo '<td style="text-align: center">'.$result1[$field_list[$f]].'</td>';
             $f++;
         }
+        echo "<td style='text-align: center'>$icons</td>";
         echo '</tr>';
     }
     echo '</table>';
@@ -127,6 +128,9 @@ function debug() {
     ini_set('display_startup_errors', 0);
     error_reporting(E_ALL);
 }
+
+
+
 
 
 

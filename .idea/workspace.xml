@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="" />
+    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/tables.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qjsmwQrAvBC8RH3YGb3FT3NxHq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,22 +37,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617604495659</updated>
-      <workItem from="1617604496788" duration="23807000" />
+      <workItem from="1617604496788" duration="26008000" />
     </task>
+    <task id="LOCAL-00001" summary="BackUp">
+      <created>1617637729338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617637729339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BackUp">
+      <created>1617637816922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617637816922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BackUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="BackUp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617605892050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617605892050" />
+    <state x="2502" y="97" key="CommitChangelistDialog2" timestamp="1617637815385">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2502" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637815385" />
+    <state x="2735" y="418" key="Github.ShareDialog" timestamp="1617637563873">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2735" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637563873" />
+    <state x="2654" y="225" key="Github.UntrackedFilesDialog" timestamp="1617637586204">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2654" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637586204" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1617606449998">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617606449998" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617637819891">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637819891" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617605816164">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
