@@ -27,12 +27,12 @@ function get_records_sql($table,$condition)
     if ($condition!='') {
         $sql = "SELECT * FROM `$table` WHERE $condition";
         $result = $mysqli->query($sql);
-/*        print_r($sql);*/
+
     }
     else {
         $sql = "SELECT * FROM `$table`";
         $result = $mysqli->query($sql);
-/*        print_r($sql);*/
+
     }
     return $result;
 }
@@ -146,6 +146,8 @@ function debug() {
     ini_set('display_startup_errors', 0);
     error_reporting(E_ALL);
 }
+
+
 
 
 

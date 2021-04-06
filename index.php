@@ -15,7 +15,7 @@ navbar navbar-dark bg-primary
 */
 echo GetHeader('dark');
 echo getSettingsModalWindow();
-
+/*debug();*/
 require_once 'lib/special_for_main_block.php';
 
 

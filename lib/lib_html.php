@@ -81,7 +81,7 @@ function GetCollapse($id,$text,$array_link,$array_get) {
         <div class="card">
             <div class="card-header" id="heading'.$id.'">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse'.$id.'" aria-expanded="false" aria-controls="collapse'.$id.'">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse'.$id.'" aria-expanded="false" aria-controls="collapse">
                   '.$text.'
                 </button>
               </h2>
@@ -106,9 +106,6 @@ function GetParentCollapseClose() {
 }
 
 
-function getUpdateIcon() {
-
-}
 
 
 
@@ -268,4 +265,38 @@ function GetFormUpd($get,$red) {
 }
 
 
+function GetCollapseReports($id,$text) {
+    $fuck = '';
+    $collapse = '
+    <!--Тут можно установить фон-->
+        
+        <div class="card">
+            <div class="card-header" id="heading'.$id.'">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse'.$id.'" aria-expanded="false" aria-controls="collapse">
+                  '.$text.'
+                </button>
+              </h2>
+    </div>
+    <div id="collapse'.$id.'" class="collapse" aria-labelledby="heading'.$id.'" data-parent="#accordionExample">
+      <div class="card-body">';
 
+    $linkes = get_records_sql('administration_table_link',"linkname = '$text'");
+
+    while ($linkes1 = mysqli_fetch_assoc($linkes)) {
+        $get_param = $linkes1['link_get'];
+    }
+
+    $linkes_list = get_records_sql('bsu_form_data',"get_name = '$get_param'");
+    echo '<form>';
+    $l=0;
+    while ($linkes_list1 = mysqli_fetch_assoc($linkes_list)) {
+        $fuck .= '<label for="n'.$l.'">'.$linkes_list1['descriptor_n'].'</label>';
+        $fuck .= '<input type="checkbox" id="n'.$l.'" name="n'.$l.'"><br>';
+        $l++;
+    }
+    $collapse3 = '</div>
+    </div>
+  </div></form>';
+    return $collapse.$fuck.$collapse3;
+}

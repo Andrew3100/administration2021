@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/update_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_script.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/special_for_main_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/special_for_main_block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/report.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617700102506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Создал внесение и обновление записей в таблицах">
+      <created>1617717951272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617717951272</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,17 +128,18 @@
     <MESSAGE value="Начал работу над шапкой" />
     <MESSAGE value="Продолжил работу над шапкой" />
     <MESSAGE value="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы" />
+    <MESSAGE value="Создал внесение и обновление записей в таблицах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал внесение и обновление записей в таблицах" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617700100674">
+    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617717949668">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617700100674" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617700106729">
+    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717949668" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617717954356">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617700106729" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717954356" />
     <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1617716327804">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
