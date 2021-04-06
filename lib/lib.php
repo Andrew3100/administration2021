@@ -28,12 +28,10 @@ function get_records_sql($table,$condition)
         $sql = "SELECT * FROM `$table` WHERE $condition";
         $result = $mysqli->query($sql);
 
-
     }
     else {
         $sql = "SELECT * FROM `$table`";
         $result = $mysqli->query($sql);
-
 
     }
     return $result;
@@ -79,7 +77,7 @@ function get_table_headers($array) {
 }
 
 function get_table_content($table_name) {
-    $result = get_records_sql($table_name,'');
+    $result = get_records_sql($table_name,'status = 1');
 
     $result_k = mysqli_fetch_assoc($result);
 
@@ -91,9 +89,8 @@ function get_table_content($table_name) {
 
     unset($field_list[count($field_list)]);
 
-    $icons = GetIconsContainer();
     /*echo '<table class="table table-bordered table-dark">';*/
-    while ($result1 = mysqli_fetch_assoc($result)) {
+    while ($result1 = mysqli_fetch_array($result)) {
 
         echo '<tr>';
         $f = 1;
@@ -106,7 +103,7 @@ function get_table_content($table_name) {
         $update = '<a href="/actions/update.php?red='.$result1['id'].'"><svg style="color: #e8eab5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
   <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
 </svg></a>';
-        $delete = '<a href="/actions/delete.php?red='.$result1['id'].'"><svg style="color: red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+        $delete = '<a href="/actions/delete.php?red='.$result1['id'].'&table='.gpr().'"><svg onclick="return  confirm(`Подтвердите удаление записи`)" style="color: red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
 </svg></a>';
 

@@ -99,6 +99,7 @@ function GetCollapse($id,$text,$array_link,$array_get) {
   </div>';
     return $collapse.$fuck.$collapse3;
 }
+
 function GetParentCollapseClose() {
      $parent_collapse_close = '</div></div>';
      return $parent_collapse_close;
@@ -170,3 +171,47 @@ function getSettingsModalWindow() {
                 </div>';
     return $modal;
 }
+
+
+
+
+
+function GetForm($get) {
+    $select_field_for_input = get_records_sql('bsu_form_data',"get_name LIKE '$get%'");
+
+    echo '<div class="container">
+            <div class="row">
+            <div class="col">';
+    echo '<form style="width: 400px; margin: auto; margin-top: 20px;">';
+    $name = 0;
+    while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
+        $type = $select_field_for_input1['type_name'];
+        if ($type!='list') {
+            echo '<div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">'.$select_field_for_input1['descriptor_n'].'</label>
+            <input type="'.$type.'" name="name'.$name.'" class="form-control" id="exampleFormControlInput1">
+        </div>
+        ';
+        }
+        else {
+        $listbox = get_records_sql('ref_country','');
+            /*Если листбокс - тянем БД*/
+            echo '<div class="mb-3">';
+            echo '<label for="exampleFormControlInput1" class="form-label">'.$select_field_for_input1['descriptor_n'].'</label>
+                  <select name="name'.$name.'" class="form-select" aria-label="Default select example" id="exampleFormControlInput1">
+                    <option name="name'.$name.'">Выберите страну</option>';
+            while ($query_country = mysqli_fetch_assoc($listbox)) {
+
+                echo '<option name="name'.$name.'">'.$query_country['name'].'</option>';
+            }
+            echo '</select>';
+            echo '</div>';
+    }
+    $name++;
+    }
+    echo '<button type="submit" class="btn btn-success">Сохранить</button>';
+    echo '</div></div></div><form>';
+}
+
+
+
