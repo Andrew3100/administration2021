@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
+    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="Продолжил работу над шапкой">
+      <change afterPath="$PROJECT_DIR$/html-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery.maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/report.php" afterDir="false" />
     </list>
@@ -38,18 +41,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/actions/libr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\actions\libr" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\actions" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\css" />
+      <recent name="C:\OpenServer\domains\administration2021" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,21 +88,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617653853586</updated>
     </task>
-    <task id="LOCAL-00005" summary="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы">
-      <created>1617700102506</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1617700102506</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Создал внесение и обновление записей в таблицах">
-      <created>1617717951272</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1617717951272</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,26 +110,6 @@
     <MESSAGE value="BackUp" />
     <MESSAGE value="Начал работу над шапкой" />
     <MESSAGE value="Продолжил работу над шапкой" />
-    <MESSAGE value="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы" />
-    <MESSAGE value="Создал внесение и обновление записей в таблицах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал внесение и обновление записей в таблицах" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617717949668">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717949668" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617717954356">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717954356" />
-    <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1617716327804">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2587" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617716327804" />
-    <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1617707764637">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617707764637" />
+    <option name="LAST_COMMIT_MESSAGE" value="Продолжил работу над шапкой" />
   </component>
 </project>

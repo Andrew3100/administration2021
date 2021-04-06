@@ -10,9 +10,11 @@ while ($table_list_for_interface1 = mysqli_fetch_assoc($table_list_for_interface
 
 
 echo GetParentCollapseOpen();
+/*Передаём случайные имена для меток for*/
+$lable_array = array('a','b','c','d','e','f','g','h','s','co','r','m','p','x','w','y','z','k');
 for ($i=0;$i<count($tables);$i++) {
 
-    echo GetCollapseReports($i,$tables[$i]);
+    echo GetCollapseReports($i,$tables[$i],$lable_array[$i]);
 
 }
 echo GetParentCollapseClose();

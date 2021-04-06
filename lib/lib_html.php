@@ -160,11 +160,12 @@ function getSettingsModalWindow() {
 
 function GetForm($get) {
     $select_field_for_input = get_records_sql('bsu_form_data',"get_name = '$get'");
-
+    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	      <script src="/main.js"></script>';
     echo '<div class="container">
             <div class="row">
             <div class="col">';
-    echo '<form action="/add_script.php" method="post" style="width: 400px; margin: auto; margin-top: 20px;">';
+    echo '<form id="form" name="form" action="/add_script.php" method="post" style="width: 400px; margin: auto; margin-top: 20px;">';
     $name = 0;
     while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
         $type = $select_field_for_input1['type_name'];
@@ -194,6 +195,11 @@ function GetForm($get) {
 
     echo "<input name='pos' value='$name' type='hidden'>";
     echo "<input name='table' value='$get' type='hidden'>";
+    echo '
+    <footer>
+        <h4 style="color: black;display: none" class="spasibo_text">Запись сохранена ✔</h4>
+    </footer>
+    ';
     echo '<button type="submit" class="btn btn-success">Сохранить</button>';
     echo '</div></div></div><form>';
 }
@@ -201,6 +207,8 @@ function GetForm($get) {
 
 
 function GetFormUpd($get,$red) {
+    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	      <script src="/main.js"></script>';
     $values = array();
     $datas = get_records_sql($get,"id = $red");
     while ($datas1 = mysqli_fetch_assoc($datas)) {
@@ -224,8 +232,13 @@ function GetFormUpd($get,$red) {
 
     echo '<div class="container">
             <div class="row">
-            <div class="col">';
-    echo '<form method="post" action="/update_script.php" style="width: 400px; margin: auto; margin-top: 20px;">';
+            <div class="col text-center">';
+    echo '
+    <footer>
+        <h4 style="color: black;display: none" class="spasibo_text1">Запись № '.$red.' обновлена ✔</h4>
+    </footer>
+    ';
+    echo '<form name="form1" id="form1" method="post" action="/update_script.php" style="width: 400px; margin: auto; margin-top: 20px;">';
     $name = 0;
     $field_counter = 0;
     while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
@@ -260,12 +273,13 @@ function GetFormUpd($get,$red) {
     echo "<input name='pos' value='$name' type='hidden'>";
     echo "<input name='table' value='$get' type='hidden'>";
     echo "<input name='red' value='$red' type='hidden'>";
-    echo '<button type="submit" class="btn btn-success">Обносить</button>';
+
+    echo '<button type="submit" class="btn btn-success">Обновить</button>';
     echo '</div></div></div><form>';
 }
 
 
-function GetCollapseReports($id,$text) {
+function GetCollapseReports($id,$text,$label_name) {
     $fuck = '';
     $collapse = '
     <!--Тут можно установить фон-->
@@ -291,8 +305,8 @@ function GetCollapseReports($id,$text) {
     echo '<form>';
     $l=0;
     while ($linkes_list1 = mysqli_fetch_assoc($linkes_list)) {
-        $fuck .= '<label for="n'.$l.'">'.$linkes_list1['descriptor_n'].'</label>';
-        $fuck .= '<input type="checkbox" id="n'.$l.'" name="n'.$l.'"><br>';
+        $fuck .= '<label for="'.$label_name.$l.'">'.$linkes_list1['descriptor_n'].'</label>';
+        $fuck .= '<input type="checkbox" id="'.$label_name.$l.'" name="n'.$l.'"><br>';
         $l++;
     }
     $collapse3 = '</div>
