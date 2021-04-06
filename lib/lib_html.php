@@ -111,21 +111,6 @@ function getUpdateIcon() {
 }
 
 
-function GetIconsContainer() {
-    $icons = '
-    <div class="container-fluid" style="padding: 0">
-        <div class="row">
-            <div class="col"><svg style="color: #e8eab5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
-  <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
-</svg></div>
-            <div class="col"><svg style="color: red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-  <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
-</svg></div>
-        </div>
-    </div>
-    ';
-    return $icons;
-}
 
 
 function getSettingsModalWindow() {
@@ -177,12 +162,12 @@ function getSettingsModalWindow() {
 
 
 function GetForm($get) {
-    $select_field_for_input = get_records_sql('bsu_form_data',"get_name LIKE '$get%'");
+    $select_field_for_input = get_records_sql('bsu_form_data',"get_name = '$get'");
 
     echo '<div class="container">
             <div class="row">
             <div class="col">';
-    echo '<form style="width: 400px; margin: auto; margin-top: 20px;">';
+    echo '<form action="/add_script.php" method="post" style="width: 400px; margin: auto; margin-top: 20px;">';
     $name = 0;
     while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
         $type = $select_field_for_input1['type_name'];
@@ -209,7 +194,76 @@ function GetForm($get) {
     }
     $name++;
     }
+
+    echo "<input name='pos' value='$name' type='hidden'>";
+    echo "<input name='table' value='$get' type='hidden'>";
     echo '<button type="submit" class="btn btn-success">Сохранить</button>';
+    echo '</div></div></div><form>';
+}
+
+
+
+function GetFormUpd($get,$red) {
+    $values = array();
+    $datas = get_records_sql($get,"id = $red");
+    while ($datas1 = mysqli_fetch_assoc($datas)) {
+        unset($datas1['id']);
+        unset($datas1['status']);
+        /*echo '<pre>';
+        var_dump($datas1);
+        echo '</pre>';*/
+
+
+/*        var_dump($field_list = get_field_list($get));*/
+
+        $field_list = get_field_list($get);
+        for ($i=1;$i<=count($datas1);$i++) {
+            $values[] = $datas1[$field_list[$i]];
+        }
+
+    }
+
+    $select_field_for_input = get_records_sql('bsu_form_data',"get_name LIKE '$get%'");
+
+    echo '<div class="container">
+            <div class="row">
+            <div class="col">';
+    echo '<form method="post" action="/update_script.php" style="width: 400px; margin: auto; margin-top: 20px;">';
+    $name = 0;
+    $field_counter = 0;
+    while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
+        $type = $select_field_for_input1['type_name'];
+        if ($type!='list') {
+            echo '<div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">'.$select_field_for_input1['descriptor_n'].'</label>
+            <input value="'.$values[$field_counter].'" type="'.$type.'" name="name'.$name.'" class="form-control" id="exampleFormControlInput1">
+        </div>
+        ';
+        }
+        else {
+            $listbox = get_records_sql('ref_country','');
+            /*Если листбокс - тянем БД*/
+            echo '<div class="mb-3">';
+            echo '<label for="exampleFormControlInput1" class="form-label">'.$select_field_for_input1['descriptor_n'].'</label>
+                  <select name="name'.$name.'" class="form-select" aria-label="Default select example" id="exampleFormControlInput1">
+                    <option name="name'.$name.'">'.$values[$field_counter].'</option>';
+            while ($query_country = mysqli_fetch_assoc($listbox)) {
+
+                echo '<option name="name'.$name.'">'.$query_country['name'].'</option>';
+            }
+            echo '</select>';
+            echo '</div>';
+        }
+        $name++;
+        $field_counter++;
+    }
+    /*Используется для определения количества постов для обновления данных*/
+    $get = $_GET['table'];
+    $red = $_GET['red'];
+    echo "<input name='pos' value='$name' type='hidden'>";
+    echo "<input name='table' value='$get' type='hidden'>";
+    echo "<input name='red' value='$red' type='hidden'>";
+    echo '<button type="submit" class="btn btn-success">Обносить</button>';
     echo '</div></div></div><form>';
 }
 
