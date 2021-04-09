@@ -16,7 +16,7 @@ for ($i=0;$i<$k;$i++) {
     $sql = "UPDATE `$table_name` SET $field_list[$j] = '$val' WHERE id = $red";
     $update = $mysqli->query($sql);
     if ($update) {
-     $success_array[] = 'Запрос выполнен успешно';
+     echo 'Запрос выполнен успешно';
     }
     $j++;
 }

@@ -26,7 +26,10 @@
             OR $_GET['cult_doc']
             OR $_GET['ec_events']
             OR $_GET['ec_document']
-            OR $_GET['young']) {
+            OR $_GET['young']
+            OR $_GET['sport_inter']
+            OR $_GET['sport_doc']
+            OR $_GET['work']) {
             include 'menu/tables.php';
             echo '
         <div class="container">

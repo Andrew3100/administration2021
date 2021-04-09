@@ -34,7 +34,7 @@ function update() {
 		function() {
 			$.ajax({
 				type: "POST",
-				url: "add_script.php",
+				url: "update_script.php",
 				data: $(this).serialize()
 			}).done(function() {
 				$('.spasibo_text1').fadeIn();

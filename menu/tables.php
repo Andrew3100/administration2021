@@ -5,7 +5,7 @@ include 'bootstrap/template.html';
 /*Имя гет-параметра, уникального для данной таблицы*/
 
 $recordss = array();
-$get = gpr();
+echo $get = gpr();
 $result = get_records_sql('bsu_form_data',"get_name LIKE '$get%'");
 
 while ($records = mysqli_fetch_assoc($result)) {

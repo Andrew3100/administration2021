@@ -53,11 +53,12 @@ for ($i=0;$i<count($header_for_excel_list11);$i++) {
 
 $for_excel = get_records_sql_for_excel($t,'',$field_for_excel_list111);
 
-
 $row=2;
 while ($for_excel1 = mysqli_fetch_assoc($for_excel)) {
     for ($i=0;$i<count($header_for_excel_list11);$i++) {
-        $excel->getActiveSheet()->setCellValue($alphabet[$i].$row, $for_excel1[$field_for_excel_list11[$i]]);
+        if ($for_excel1[$field_for_excel_list11[$i]]!='Заглушка') {
+            $excel->getActiveSheet()->setCellValue($alphabet[$i].$row, $for_excel1[$field_for_excel_list11[$i]]);
+        }
     }
     $row++;
 }

@@ -1,16 +1,13 @@
 <?php
 
 
-
 /*Написать проверку аторизации*/
 /*Написать коннект к базе данных*/
 /*Написать антирежим отладки*/
 
-isAuth();
-
 function isAuth() {
     $x = true;
-    if ($_COOKIE['user']=='') {
+    if ($_COOKIE['emou']=='') {
         echo "<script>window.location.replace('/auth/index.html')</script>";
         $x = false;
         exit();
@@ -40,14 +37,10 @@ function get_records_sql($table,$condition)
         $sql = "SELECT * FROM `$table` WHERE $condition";
         $result = $mysqli->query($sql);
 
-
-
     }
     else {
         $sql = "SELECT * FROM `$table`";
         $result = $mysqli->query($sql);
-
-
 
     }
     return $result;
