@@ -193,10 +193,20 @@ function GetForm($get) {
     $name = 0;
     while ($select_field_for_input1 = mysqli_fetch_assoc($select_field_for_input)) {
         $type = $select_field_for_input1['type_name'];
+        $required = $select_field_for_input1['requred'];
+        /*В переменной $required хранится обязательность заполнения*/
+        if ($required==1) {
+            /*Если в базе 1, то обязательно заполнять*/
+            $required = 'required';
+        }
+        /*Иначе не обязательно, ставим пустой текст*/
+        else {
+            $required = '';
+        }
         if ($type!='list') {
             echo '<div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">'.$select_field_for_input1['descriptor_n'].'</label>
-            <input type="'.$type.'" name="name'.$name.'" class="form-control" id="exampleFormControlInput1">
+            <input '.$required.' type="'.$type.'" name="name'.$name.'" class="form-control" id="exampleFormControlInput1">
         </div>
         ';
         }

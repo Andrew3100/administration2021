@@ -1,0 +1,87 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0402bfdf-557e-40f8-a25f-6c2ef8d605e4\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lib/lib.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lib/lib.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lib/lib_html.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lib/lib_html.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/menu/tables.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/menu/tables.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1qjsmwQrAvBC8RH3YGb3FT3NxHq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0402bfdf-557e-40f8-a25f-6c2ef8d605e4\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1617604495659</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1617604495659</updated>\r\n      <workItem from=\"1617604496788\" duration=\"26008000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"BackUp\">\r\n      <created>1617637729338</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617637729339</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"BackUp\">\r\n      <created>1617637816922</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617637816922</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"BackUp\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"BackUp\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"2646\" y=\"322\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1617605892050\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2646\" y=\"322\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617605892050\" />\r\n    <state x=\"2502\" y=\"97\" key=\"CommitChangelistDialog2\" timestamp=\"1617637815385\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2502\" y=\"97\" key=\"CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617637815385\" />\r\n    <state x=\"2735\" y=\"418\" key=\"Github.ShareDialog\" timestamp=\"1617637563873\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2735\" y=\"418\" key=\"Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617637563873\" />\r\n    <state x=\"2654\" y=\"225\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1617637586204\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2654\" y=\"225\" key=\"Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617637586204\" />\r\n    <state x=\"2714\" y=\"443\" key=\"NewPhpFileDialog\" timestamp=\"1617606449998\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2714\" y=\"443\" key=\"NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617606449998\" />\r\n    <state x=\"2472\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1617637819891\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2472\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617637819891\" />\r\n    <state x=\"2543\" y=\"225\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1617605816164\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2543\" y=\"225\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617605816164\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision dade60f6fce8a3737c15433fde223f3c450cfc6f)
++++ .idea/workspace.xml	(date 1617691203179)
+@@ -1,12 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/menu/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/tables.php" afterDir="false" />
+-    </list>
++    <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -37,7 +32,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1617604495659</updated>
+-      <workItem from="1617604496788" duration="26008000" />
++      <workItem from="1617604496788" duration="26768000" />
+     </task>
+     <task id="LOCAL-00001" summary="BackUp">
+       <created>1617637729338</created>
+@@ -53,7 +48,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1617637816922</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Доработал табличный вывод данных">
++      <created>1617640473575</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1617640473575</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -61,17 +63,18 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="BackUp" />
+-    <option name="LAST_COMMIT_MESSAGE" value="BackUp" />
++    <MESSAGE value="Доработал табличный вывод данных" />
++    <option name="LAST_COMMIT_MESSAGE" value="Доработал табличный вывод данных" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617605892050">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+     <state x="2646" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617605892050" />
+-    <state x="2502" y="97" key="CommitChangelistDialog2" timestamp="1617637815385">
++    <state x="2502" y="97" key="CommitChangelistDialog2" timestamp="1617640471987">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="2502" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637815385" />
++    <state x="2502" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617640471987" />
+     <state x="2735" y="418" key="Github.ShareDialog" timestamp="1617637563873">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+@@ -84,10 +87,14 @@
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617606449998" />
+-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617637819891">
++    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617640476063">
++      <screen x="1920" y="0" width="1920" height="1040" />
++    </state>
++    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617640476063" />
++    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617691203135">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617637819891" />
++    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617691203135" />
+     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617605816164">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>

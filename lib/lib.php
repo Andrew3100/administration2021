@@ -165,7 +165,21 @@ function debug() {
 
 
 
-
+function fixed_log($event,$user) {
+    include 'database.php';
+    $time = date("H:i:s",time());
+    $date = date('Y-m-d',time());
+    $date = explode('-',$date);
+    $date = implode($date,'-');
+    var_dump($event);
+    var_dump($user);
+    var_dump($time);
+    var_dump($date);
+    $fixed_log = $mysqli->query("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
+    echo '<pre>';
+    print_r("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
+    echo '</pre>';
+}
 
 
 

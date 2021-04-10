@@ -1,0 +1,85 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0402bfdf-557e-40f8-a25f-6c2ef8d605e4\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/add_form.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/add_form.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lib/lib.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lib/lib.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lib/lib_html.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lib/lib_html.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/menu/report.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/menu/report.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1qjsmwQrAvBC8RH3YGb3FT3NxHq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/actions/libr\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\OpenServer\\domains\\localhost\\fff\\administration2021\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\OpenServer\\domains\\localhost\\fff\\administration2021\\actions\\libr\" />\r\n      <recent name=\"D:\\OpenServer\\domains\\localhost\\fff\\administration2021\\actions\" />\r\n      <recent name=\"D:\\OpenServer\\domains\\localhost\\fff\\administration2021\" />\r\n      <recent name=\"D:\\OpenServer\\domains\\localhost\\fff\\administration2021\\css\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0402bfdf-557e-40f8-a25f-6c2ef8d605e4\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1617604495659</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1617604495659</updated>\r\n      <workItem from=\"1617604496788\" duration=\"26008000\" />\r\n      <workItem from=\"1617648449300\" duration=\"5781000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"BackUp\">\r\n      <created>1617637729338</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617637729339</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"BackUp\">\r\n      <created>1617637816922</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617637816922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Начал работу над шапкой\">\r\n      <created>1617653180442</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617653180442</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Продолжил работу над шапкой\">\r\n      <created>1617653853586</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617653853586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы\">\r\n      <created>1617700102506</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617700102506</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Создал внесение и обновление записей в таблицах\">\r\n      <created>1617717951272</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1617717951272</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"BackUp\" />\r\n    <MESSAGE value=\"Начал работу над шапкой\" />\r\n    <MESSAGE value=\"Продолжил работу над шапкой\" />\r\n    <MESSAGE value=\"Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы\" />\r\n    <MESSAGE value=\"Создал внесение и обновление записей в таблицах\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Создал внесение и обновление записей в таблицах\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"2501\" y=\"88\" key=\"CommitChangelistDialog2\" timestamp=\"1617717949668\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2501\" y=\"88\" key=\"CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617717949668\" />\r\n    <state x=\"2472\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1617717954356\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2472\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617717954356\" />\r\n    <state x=\"2587\" y=\"253\" width=\"585\" height=\"534\" key=\"find.popup\" timestamp=\"1617716327804\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2587\" y=\"253\" width=\"585\" height=\"534\" key=\"find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617716327804\" />\r\n    <state x=\"2536\" y=\"173\" width=\"672\" height=\"676\" key=\"search.everywhere.popup\" timestamp=\"1617707764637\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"2536\" y=\"173\" width=\"672\" height=\"676\" key=\"search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040\" timestamp=\"1617707764637\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision d8def9e1924c905ba9d1d85a6c53d9405a6b2509)
++++ .idea/workspace.xml	(date 1617774717505)
+@@ -1,13 +1,26 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/add_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_form.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/menu/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/report.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -105,7 +118,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1617717951272</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="Начал разработку отчётов">
++      <created>1617723594945</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1617723594945</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -129,17 +149,22 @@
+     <MESSAGE value="Продолжил работу над шапкой" />
+     <MESSAGE value="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы" />
+     <MESSAGE value="Создал внесение и обновление записей в таблицах" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Создал внесение и обновление записей в таблицах" />
++    <MESSAGE value="Начал разработку отчётов" />
++    <option name="LAST_COMMIT_MESSAGE" value="Начал разработку отчётов" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617717949668">
++    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617723593269">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717949668" />
+-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617717954356">
++    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617723593269" />
++    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617723598427">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617717954356" />
++    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617723598427" />
++    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617774210942">
++      <screen x="1920" y="0" width="1920" height="1040" />
++    </state>
++    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617774210942" />
+     <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1617716327804">
+       <screen x="1920" y="0" width="1920" height="1040" />
+     </state>

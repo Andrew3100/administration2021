@@ -20,30 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/exit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/lib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jst/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_04_2021_9_40_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_04_2021_9_40_[Default_Changelist]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_04_2021_9_40__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_04_2021_8_52_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_04_2021_8_52__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/special_for_main_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/special_for_main_block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/tables.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/excel_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/reports/excel_report.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/reports/lib/lib.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,20 +70,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auth" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/заочка.sql" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021\auth" />
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021\css" />
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021\actions\libr" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,7 +98,8 @@
       <workItem from="1617648449300" duration="5781000" />
       <workItem from="1617805647895" duration="9000" />
       <workItem from="1617870467277" duration="641000" />
-      <workItem from="1617871121146" duration="12833000" />
+      <workItem from="1617871121146" duration="13983000" />
+      <workItem from="1618046215399" duration="12192000" />
     </task>
     <task id="LOCAL-00001" summary="BackUp">
       <created>1617637729338</created>
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617787130257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Исправил мелочные баги. Создал скрипт форму и скрипт для авторизации. Создал уничтожение куки">
+      <created>1617960765798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617960765798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,17 +182,22 @@
     <MESSAGE value="Поправил некоторые баги, сделал универсальный вывод формы ввода новых записей для каждой таблицы" />
     <MESSAGE value="Создал внесение и обновление записей в таблицах" />
     <MESSAGE value="Написал скрипт формирования отчёта Excel по выбранным полям" />
-    <option name="LAST_COMMIT_MESSAGE" value="Написал скрипт формирования отчёта Excel по выбранным полям" />
+    <MESSAGE value="Исправил мелочные баги. Создал скрипт форму и скрипт для авторизации. Создал уничтожение куки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил мелочные баги. Создал скрипт форму и скрипт для авторизации. Создал уничтожение куки" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617787125159">
+    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1617960762600">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617787125159" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617787133257">
+    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617960762600" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1618053875182">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617787133257" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618053875182" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617960785017">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617960785017" />
     <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1617716327804">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

@@ -12,6 +12,23 @@ for ($i=0;$i<$k;$i++) {
     $report_list[] = $_POST['name'.$i];
 }
 
+
+$kj=0;
+$null = false;
+for ($i=0;$i<$k;$i++) {
+    if ($report_list[$i]==NULL) {
+        $kj++;
+    }
+    if ($kj==$k) {
+        $null = true;
+    }
+}
+if ($null==true) {
+    echo '<h1 style="text-align: center; margin-top: 120px;">
+    Нельзя сформировать пустой отчёт. Пожалуйста, изучите инструкцию в разделе "Отчёты"<a href="/index.php?reports=1"><br><br>
+    Вернуться назад</a></h1>';
+    exit();
+}
 $string_f = implode(', ',$report_list);
 /*Поля таблицы, считаемые с нуля, как в обычном массиве*/
 $report_list = explode(', ',$string_f);
@@ -63,6 +80,8 @@ while ($for_excel1 = mysqli_fetch_assoc($for_excel)) {
     $row++;
 }
 $rep = date('d-m-Y',time());
+fixed_log("Выгрузка отчёта по таблице $t",$_COOKIE['user']);
+
 header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 header('Content-Disposition: attachment; filename="'.$rep.'.xlsx');
 header('Cash-Control: max-age=0');
