@@ -20,6 +20,7 @@ for ($i=0;$i<$k;$i++) {
     }
     $j++;
 }
+    fixed_log("Обновление записи № $red в таблице $table_name",$_COOKIE['user']);
     echo "<script>window.location.replace('index.php?$table_name=1')</script>";
 
 

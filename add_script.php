@@ -36,9 +36,8 @@ $sql = "INSERT INTO `$table_name` $for_insert_fields VALUES $for_insert_values";
 print_r($sql);
 $insert = $mysqli->query($sql);
 if ($insert) {
-/*    echo "<script>window.location.replace('add_form.php?table=$table_name')</script>";*/
-    echo '<pre>';
-    var_dump($field_list);
-    echo '</pre>';
+    /*    echo "<script>window.location.replace('add_form.php?table=$table_name')</script>";*/
+    fixed_log("Добавление записи в таблицу $table_name",$_COOKIE['user']);
+
 }
 

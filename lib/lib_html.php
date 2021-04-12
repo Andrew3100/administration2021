@@ -13,24 +13,20 @@ function GetHeader($color) {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="text-white navbar-nav mr-auto mb-2 mb-lg-0">
-                    
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Руководство пользователя</a>
                     </li>
-                    
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Шаблоны импорта</a>
                     </li>
-                    
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Поделиться отчётом</a>
                     </li>
-                    
                   </ul>
-                  <form class="d-flex" style=" margin-right: 25px;">
-                    <input class="form-control mr-2" type="search" placeholder="Запись содержит..." aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Найти</button>
-                  </form>
+                  <!--<form method="GET" name="form" class="d-flex" style="margin-right: 25px;">
+                    <input class="form-control mr-2" name="search" type="search" placeholder="Запись содержит..." aria-label="Search">
+                    <a class="btn btn-outline-success" href="index.php?search=1">Найти</a>
+                  </form>-->
                   
                  
                 <li  style="list-style: none"  class="nav-item dropdown">
@@ -40,14 +36,14 @@ function GetHeader($color) {
           <ul class="dropdown-menu" bg-dark aria-labelledby="navbarDropdown">
             <div class="container">
                 <div class="row">
-                    <div class="col text-center">
+                    <!--<div class="col text-center">
                         <li><a class="dropdown-item" href="#">
             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop"><svg style="width: 20px; height: 20px; color: yellow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
                   <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
                   <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
                 </svg></a>
                 </a></li>
-                    </div>
+                    </div>-->
                     <div class="col">
                         <li><a class="dropdown-item">
             <a class="btn btn-primary" href="/auth/exit.php" onclick="return confirm(`Выйти из системы?`)"><svg style="width: 20px; height: 20px; color: black" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
@@ -81,6 +77,7 @@ function GetMainBlock() {
               <li class='list-group-item'><a href='index.php?data=1'>Работа с данными</a></li>
               <li class='list-group-item'><a href='index.php?reports=1'>Отчёты</a></li>
               <li class='list-group-item'><a href='index.php?impexp=1'>Импорт / экспорт данных</a></li>
+              <li class='list-group-item'><a href='index.php?logs=1'>Журнал логов</a></li>
             </ul>
             </div>
             <div class='col-9'>
@@ -267,11 +264,7 @@ function GetFormUpd($get,$red) {
     echo '<div class="container">
             <div class="row">
             <div class="col text-center">';
-    echo '
-    <footer>
-        <h4 style="color: black;display: none" class="spasibo_text1">Запись № '.$red.' обновлена ✔</h4>
-    </footer>
-    ';
+
     echo '<form name="form1" id="form1" method="post" action="/update_script.php" style="width: 400px; margin: auto; margin-top: 20px;">';
     $name = 0;
     $field_counter = 0;
@@ -307,7 +300,11 @@ function GetFormUpd($get,$red) {
     echo "<input name='pos' value='$name' type='hidden'>";
     echo "<input name='table' value='$get' type='hidden'>";
     echo "<input name='red' value='$red' type='hidden'>";
-
+    echo '
+    <footer>
+        <h4 style="color: black;display: none" class="spasibo_text1">Запись № '.$red.' обновлена ✔</h4>
+    </footer>
+    ';
     echo '<button type="submit" class="btn btn-success">Обновить</button>';
     echo '</div></div></div><form>';
 }

@@ -8,7 +8,11 @@
             <ul class='list-group '>
                 <a style="text-decoration: none" class="text-white" href='index.php?data=1'><li class='list-group-item bg-dark text-center'>Работа с данными</a></li>
                 <a style="text-decoration: none" class="text-white" href='index.php?reports=1'><li class='list-group-item bg-dark text-center'>Отчёты</a></li>
-                <a style="text-decoration: none" class="text-white" href='index.php?impexp=1'><li class='list-group-item bg-dark text-center'>Импорт / экспорт данных</a></li>
+                <a style="text-decoration: none" class="text-white" href='index.php?impexp=1'><li style="display: none" class='list-group-item bg-dark text-center'>Импорт / экспорт данных</a></li>
+                <?php if (is_site_admin()) {
+                echo "<a style='text-decoration: none' class='text-white' href='index.php?logs=1'><li class='list-group-item bg-dark text-center'>Журнал логов</a></li>";
+                } ?>
+
             </ul>
         </div>
         <div class='col-9'>

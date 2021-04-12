@@ -1,12 +1,19 @@
 <?php
 
 
+function closeSite() {
+    if (!is_site_admin()) {
+        echo '<img src="https://www.velodrive.ru/upload/medialibrary/76a/tekh-raboty.png" style="width: 500px; height: 200px; margin-top: 120px; margin-left: 380px;">';
+        exit();
+    }
+}
+/*тех работы*/
+closeSite();
 
-/*Написать проверку аторизации*/
-/*Написать коннект к базе данных*/
-/*Написать антирежим отладки*/
-
+/*Проверяем авторизацию*/
 isAuth();
+/*Выключаем отладку*/
+debug();
 
 function isAuth() {
     $x = true;
@@ -29,6 +36,13 @@ function GetParam() {
     if ($_GET['impexp']) {
         include 'menu/managment.php';
     }
+    if ($_GET['logs']) {
+        include 'menu/logs.php';
+    }
+    if ($_GET['search']) {
+        include 'menu/search.php';
+    }
+
 
 }
 
@@ -42,10 +56,14 @@ function get_records_sql($table,$condition)
 
 
 
+
+
     }
     else {
         $sql = "SELECT * FROM `$table`";
         $result = $mysqli->query($sql);
+
+
 
 
 
@@ -171,17 +189,28 @@ function fixed_log($event,$user) {
     $date = date('Y-m-d',time());
     $date = explode('-',$date);
     $date = implode($date,'-');
-    var_dump($event);
-    var_dump($user);
-    var_dump($time);
-    var_dump($date);
     $fixed_log = $mysqli->query("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
-    echo '<pre>';
+    /*echo '<pre>';
     print_r("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
-    echo '</pre>';
+    echo '</pre>';*/
+}
+
+function is_site_admin() {
+    $x = false;
+    if ($_COOKIE['user']=='admin') {
+        $x=true;
+    }
+    return $x;
 }
 
 
+function getUserTableFullname($get) {
+    $table_name = get_records_sql('administration_table_link',"link_get = '$get'");
+    while ($table_name1 = mysqli_fetch_assoc($table_name)) {
+        $table_name_full = $table_name1['linkname'];
+    }
+    return $table_name_full;
+}
 
 
 
