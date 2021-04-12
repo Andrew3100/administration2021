@@ -14,14 +14,14 @@ function GetHeader($color) {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="text-white navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a style="color: white" class="nav-link" href="#">Руководство пользователя</a>
+                      <a style="color: white" download="Руководство_пользователя" class="nav-link" href="/docum.docx">Руководство пользователя</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Шаблоны импорта</a>
                     </li>
                     <li class="nav-item">
                       <a style="color: white" class="nav-link" href="#">Поделиться отчётом</a>
-                    </li>
+                    </li>-->
                   </ul>
                   <!--<form method="GET" name="form" class="d-flex" style="margin-right: 25px;">
                     <input class="form-control mr-2" name="search" type="search" placeholder="Запись содержит..." aria-label="Search">
@@ -336,7 +336,7 @@ function GetCollapseReports($id,$text,$label_name) {
     }
 
     $linkes_list = get_records_sql('bsu_form_data',"get_name = '$get_param'");
-    echo '<form method="post" action="/reports/excel_report.php">';
+    echo '<form method="post" action="/emou_BSU/reports/excel_report.php">';
     $l=0;
     while ($linkes_list1 = mysqli_fetch_assoc($linkes_list)) {
         $fuck .= '<div class="form-check">

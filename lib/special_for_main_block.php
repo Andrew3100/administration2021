@@ -17,7 +17,7 @@
         </div>
         <div class='col-9'>
         <?php
-        $array = array('och','zaoch','aus','science','aus_contract','mobile','change','grant','cult_event','cult_contract','inter_events','ekonom_contract','youth');
+/*        $array = array('och','zaoch','aus','science','aus_contract','mobile','change','grant','cult_event','cult_contract','inter_events','ekonom_contract','youth');*/
         if (   $_GET['och']
             OR $_GET['zaoch']
             OR $_GET['aus']

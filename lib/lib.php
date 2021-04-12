@@ -3,13 +3,12 @@
 
 function closeSite() {
     if (!is_site_admin()) {
-        echo '<img src="https://www.velodrive.ru/upload/medialibrary/76a/tekh-raboty.png" style="width: 500px; height: 200px; margin-top: 120px; margin-left: 380px;">';
+        echo '<h3 style="text-align: center; margin-top: 120px;">На сайте проводятся технические работы. Скоро мы всё починим:)</h3>';
         exit();
     }
 }
 /*тех работы*/
 closeSite();
-
 /*Проверяем авторизацию*/
 isAuth();
 /*Выключаем отладку*/
@@ -18,7 +17,7 @@ debug();
 function isAuth() {
     $x = true;
     if ($_COOKIE['user']=='') {
-        echo "<script>window.location.replace('/auth/index.html')</script>";
+        echo "<script>window.location.replace('/emou_BSU/auth/index.php')</script>";
         $x = false;
         exit();
     }
@@ -133,7 +132,7 @@ function get_table_content($table_name) {
             $f++;
         }
 
-        $update = '<a href="update_form.php?red='.$result1['id'].'&table='.gpr().'"><svg style="color: #e8eab5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+        $update = '<a href="update_form.php?red='.$result1['id'].'&table='.gpr().'" target="_blank"><svg style="color: #e8eab5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
   <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
 </svg></a>';
         $delete = '<a href="/actions/delete.php?red='.$result1['id'].'&table='.gpr().'"><svg onclick="return  confirm(`Подтвердите удаление записи`)" style="color: red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">

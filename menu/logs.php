@@ -18,5 +18,6 @@ while ($records = mysqli_fetch_assoc($result)) {
 
 /*Рисуем шапки*/
 get_table_headers($recordss);
+var_dump('Строка');
 /*Рисуем записи*/
 get_table_content($get);

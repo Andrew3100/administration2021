@@ -8,7 +8,7 @@
 function isAuth() {
     $x = true;
     if ($_COOKIE['emou']=='') {
-        echo "<script>window.location.replace('/auth/index.html')</script>";
+        echo "<script>window.location.replace('/auth/index.php')</script>";
         $x = false;
         exit();
     }
@@ -164,14 +164,10 @@ function fixed_log($event,$user) {
     $date = date('Y-m-d',time());
     $date = explode('-',$date);
     $date = implode($date,'-');
-    var_dump($event);
-    var_dump($user);
-    var_dump($time);
-    var_dump($date);
     $fixed_log = $mysqli->query("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
-    echo '<pre>';
+    /*echo '<pre>';
     print_r("INSERT INTO logs (`event`,`date`,`time`,`username`) VALUES ('$event','$date','$time','$user')");
-    echo '</pre>';
+    echo '</pre>';*/
 }
 
 

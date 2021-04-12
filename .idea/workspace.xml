@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0402bfdf-557e-40f8-a25f-6c2ef8d605e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu/logs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docum.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/exit.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/exit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib_html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/special_for_main_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/special_for_main_block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/logs.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/logs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/lib/lib_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/reports/lib/lib_html.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +63,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/actions" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\actions" />
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\auth" />
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\css" />
+      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
       <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\actions" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\auth" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\css" />
-      <recent name="D:\OpenServer\domains\localhost\fff\administration2021\reports" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +98,7 @@
       <workItem from="1617870467277" duration="641000" />
       <workItem from="1617871121146" duration="13983000" />
       <workItem from="1618046215399" duration="13182000" />
-      <workItem from="1618205794417" duration="8854000" />
+      <workItem from="1618205794417" duration="21631000" />
     </task>
     <task id="LOCAL-00001" summary="BackUp">
       <created>1617637729338</created>
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618062862975</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Подготовка к тестированию информационной системы">
+      <created>1618216705432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618216705432</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,28 +197,52 @@
     <MESSAGE value="Написал скрипт формирования отчёта Excel по выбранным полям" />
     <MESSAGE value="Исправил мелочные баги. Создал скрипт форму и скрипт для авторизации. Создал уничтожение куки" />
     <MESSAGE value="1) Выгрузки баз данных. &#10;2) Необходимо поправить библиотеки и добавить таблицу логов в интерфейс&#10;3) Протестировать Ajax&#10;4) Поисковик и ресурсы&#10;5) Руководство" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Выгрузки баз данных. &#10;2) Необходимо поправить библиотеки и добавить таблицу логов в интерфейс&#10;3) Протестировать Ajax&#10;4) Поисковик и ресурсы&#10;5) Руководство" />
+    <MESSAGE value="Подготовка к тестированию информационной системы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовка к тестированию информационной системы" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1618062859148">
+    <state x="2472" y="178" key="#Deployment" timestamp="1618221089604">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618062859148" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1618053875182">
+    <state x="2472" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618221089604" />
+    <state x="2501" y="88" key="CommitChangelistDialog2" timestamp="1618216703394">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618053875182" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618062877852">
+    <state x="2501" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618216703394" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1618221042713">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618062877852" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618221042713" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618216707734">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618216707734" />
+    <state x="2736" y="419" key="WebDeployment.AddServerDialog.v.1" timestamp="1618219435267">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2736" y="419" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618219435267" />
     <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1618206148548">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2587" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618206148548" />
+    <state x="2685" y="250" key="ftp.server.browser" timestamp="1618221081959">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="250" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618221081959" />
     <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1617873373983">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617873373983" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/lib.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

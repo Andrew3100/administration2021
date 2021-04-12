@@ -303,7 +303,7 @@ function GetCollapseReports($id,$text,$label_name) {
     }
 
     $linkes_list = get_records_sql('bsu_form_data',"get_name = '$get_param'");
-    echo '<form method="post" action="/reports/excel_report.php">';
+    echo '<form method="post" action="/emou_BSU/reports/excel_report.php">';
     $l=0;
     while ($linkes_list1 = mysqli_fetch_assoc($linkes_list)) {
         $fuck .= '<div class="form-check">

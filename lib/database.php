@@ -1,7 +1,7 @@
 <?php
-$db_host = "localhost";
-$db_user = "root"; // Логин БД
-$db_password = ""; // Пароль БД
+$db_host = "bsu-do-sql-pegas.bsu.edu.ru";
+$db_user = "ADMIN"; // Логин БД
+$db_password = "b1g#psKT"; // Пароль БД
 $db_base = 'administration2021'; // Имя БД
 
 // Подключение к базе данных
